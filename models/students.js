@@ -13,4 +13,4 @@ const studentsSchema=new mongoose.Schema({
         default:Date.now
     }
 });
-module.exports=mongoose.model('studentModel',studentsSchema)
+module.exports=mongoose.model('studentsModel',studentsSchema)
